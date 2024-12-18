@@ -1,0 +1,7 @@
+sellerId,category,productName,salesStartDate,salesEndDate,productStatus,brand,manufacturer,salesPrice,stockQuantity
+86,패션,소설,2023-11-20,2026-01-21,DISCONNECTED,현대,아모레퍼시픽,238108,475
+77,완구,레고,2021-07-23,2025-10-27,OUT_OF_STOCK,BMW,BMW코리아,25794,778
+20,스포츠,소설,2020-12-08,2026-03-24,AVAILABLE,맥도날드,아모레퍼시픽,80550,108
+89,서적,스마트폰,2020-02-16,2024-07-16,AVAILABLE,LG,삼성전자,454937,627
+74,디지털,스킨케어 세트,2020-04-15,2025-09-25,DISCONNECTED,나이키,스타벅스코리아,106552,577
+100,디지털,기타,2023-11-14,2024-06-10,OUT_OF_STOCK,맥도날드,삼성전자,498941,739

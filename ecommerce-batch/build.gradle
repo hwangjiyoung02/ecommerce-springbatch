@@ -1,0 +1,26 @@
+bootJar {
+    mainClass = 'jiyoung-ecommerce-springbatch'  // 실제 main 클래스 경로로 변경
+}
+jar {
+    enabled = true
+}
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    implementation 'org.springframework.boot:spring-boot-starter-batch'
+    implementation 'org.apache.commons:commons-csv:1.11.0'
+    implementation 'org.springframework.boot:spring-boot-starter-actuator'
+    implementation 'io.micrometer:micrometer-registry-prometheus-simpleclient:1.13.4'
+
+    testImplementation 'org.springframework.batch:spring-batch-test'
+
+}
+
+test {
+    useJUnitPlatform()
+}
+//tasks.named('bootJar') {
+//    mainClass.set('jiyoung.ecommerce.batch.BatchApplication') // 메인 클래스의 전체 경로
+//}
